@@ -200,7 +200,7 @@ const ExperienceCard = ({ experience }) => {
                 }
             </Description>
             {experience.doc &&
-                <ButtonCertificate href={experience.doc} target="display"> Certificate
+                <ButtonCertificate href={experience.doc} target="display"> View Certificate
                 </ButtonCertificate>
             }
         </Card>

@@ -182,7 +182,7 @@ const Button = styled.a`
 `;
 
 
-const index = ({ openModal, setOpenModal }) => {
+const Index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
     return (
         <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
@@ -199,14 +199,14 @@ const index = ({ openModal, setOpenModal }) => {
                     />
                     <Image src={project?.image} />
                     <Title>{project?.title}</Title>
-                    <Date>{project.date}</Date>
+                    <Date>{project?.date}</Date>
                     <Tags>
                         {project?.tags.map((tag) => (
                             <Tag>{tag}</Tag>
                         ))}
                     </Tags>
                     <Desc>{project?.description}</Desc>
-                    {project.member && (
+                    {project?.member && (
                         <>
                             <Label>Members</Label>
                             <Members>
@@ -214,10 +214,10 @@ const index = ({ openModal, setOpenModal }) => {
                                     <Member>
                                         <MemberImage src={member.img} />
                                         <MemberName>{member.name}</MemberName>
-                                        <a href={member.github} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
+                                        <a href={member.github} target="new" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <GitHub />
                                         </a>
-                                        <a href={member.linkedin} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
+                                        <a href={member.linkedin} target="new" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <LinkedIn />
                                         </a>
                                     </Member>
@@ -227,13 +227,14 @@ const index = ({ openModal, setOpenModal }) => {
                     )}
                     <ButtonGroup>
                         <Button dull href={project?.github} target='new'>View Code</Button>
-                        <Button href={project?.webapp} target='new'>View Live App</Button>
+                        {project?.webapp && (
+                            <Button href={project.webapp} target='new'>View Live App</Button>
+                        )}
                     </ButtonGroup>
                 </Wrapper>
             </Container>
-
         </Modal>
     )
 }
 
-export default index
+export default Index;
