@@ -268,7 +268,7 @@ export const Bio = {
         "https://github.com/user-attachments/assets/5ed073e6-c021-4f8e-97ce-b10105c59002",
       tags: ["React Js", "CSS", "HTML", "Node JS","Netlify"],
       github: "https://github.com/ShubhamShaw01/portfolio",
-      webapp: "https://netlify.app/",
+      webapp: "https://shubham-stu-portfolio.netlify.app",
     },
     {
       id: 3,
