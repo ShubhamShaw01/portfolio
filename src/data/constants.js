@@ -196,7 +196,7 @@ export const Bio = {
       school: "Hooghly Engineering & Technology College, West Bengal",
       date: "2021-2025",
       grade: "8.55 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 7 semesters and have a CGPA of 8.55. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.Where I am learning and working on exciting projects with a team of talented developers.",
+      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Hooghly Engineering and Technology College under the supervision of MAKAUT University. I have completed 7 semesters and have a CGPA of 8.55. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.Where I am learning and working on exciting projects with a team of talented developers.",
       degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
     {
