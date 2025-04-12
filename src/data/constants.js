@@ -258,7 +258,7 @@ export const Bio = {
       description:
         "This project utilizes machine learning techniques to classify emails as spam or not spam. Built with Python and Scikit-learn, it involves data preprocessing, feature extraction using TF-IDF, and training models like Naive Bayes for accurate spam detection.",
       image:
-        "https://github.com/user-attachments/assets/4fcc9896-f647-4680-b0f9-bed297f4490f",
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/106326646/433042804-4fcc9896-f647-4680-b0f9-bed297f4490f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250412%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250412T115249Z&X-Amz-Expires=300&X-Amz-Signature=774bf2ad11d5b55934a35ab8725a60f7ffcb1a6fa7c31136d672c2bf432d76bd&X-Amz-SignedHeaders=host",
       tags: ["Python", "Scikit-learn", "Machine Learning","Naive Bayes","Docker","FastApi"],
       github: "https://github.com/ShubhamShaw01/SpamMailDetector",
     },
