@@ -130,6 +130,11 @@ export const Bio = {
           image:
             "https://upload.wikimedia.org/wikipedia/commons/f/fb/Server-based-network.svg",
         },
+        {
+          name: "Docker",
+          image:
+            "https://hub.docker.com/api/media/repos_logo/v1/library%2Fdocker",
+        },
       ],
     },
     {
@@ -247,6 +252,17 @@ export const Bio = {
       github: "https://github.com/ShubhamShaw01/Electricity-Billing-System",
     },
     {
+      id: 5,
+      title: "Spam Mail Detector",
+      date: "Apr 2025",
+      description:
+        "This project utilizes machine learning techniques to classify emails as spam or not spam. Built with Python and Scikit-learn, it involves data preprocessing, feature extraction using TF-IDF, and training models like Naive Bayes for accurate spam detection.",
+      image:
+        "https://github.com/user-attachments/assets/4fcc9896-f647-4680-b0f9-bed297f4490f",
+      tags: ["Python", "Scikit-learn", "Machine Learning","Naive Bayes","Docker","FastApi"],
+      github: "https://github.com/ShubhamShaw01/SpamMailDetector",
+    },
+    {
       id: 2,
       title: "Currency Converter",
       date: "Sep 2024",
@@ -293,6 +309,7 @@ export const Bio = {
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/ShubhamShaw01/tic-tac-toe",
     },
+    
     
   ];
   
