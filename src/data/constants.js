@@ -162,6 +162,19 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnBugTjipDNyNUOOvjcmxx_qABgDtI0pw5Qw&s",
+      role: "Data Analytics Job Simulation by Deloitte",
+      company: "Forage",
+      date: "Apr 2025",
+      desc: "Participated in Deloitte's virtual consulting simulation, where I conducted data analysis to identify key business insights and created interactive dashboards using Excel and Tableau to support data-driven decision-making.",
+      skills: [
+        "Tableau",
+        "Excel",
+      ],
+      doc: "https://www.linkedin.com/feed/update/urn:li:activity:7317109297866240000/",
+    },
+    {
+      id: 1,
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_725bP8u9EipH9pAOcok_IyTsAT6NO4uDmw&s",
       role: "GOOGLE CLOUD GENERATIVE AI VIRTUAL INTERNSHIP",
       company: "Eduskill Program",
@@ -178,7 +191,7 @@ export const Bio = {
       doc: "https://drive.google.com/file/d/1asPcDqf_SXa5hPP0mSdzVKs2YsBm5oQT/view?usp=sharing",
     },
     {
-      id: 1,
+      id: 2,
       img: "data:image/png;base64,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",
       role: "Android Developer Virtual Intership",
       company: "India Edu Program",
